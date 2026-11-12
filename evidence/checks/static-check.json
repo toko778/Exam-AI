@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-11-12T08:28:30.088Z",
+  "checks": [
+    {
+      "name": "Georgian document language",
+      "passed": true
+    },
+    {
+      "name": "Responsive viewport",
+      "passed": true
+    },
+    {
+      "name": "One main heading",
+      "passed": true
+    },
+    {
+      "name": "No unresolved template tokens",
+      "passed": true
+    },
+    {
+      "name": "Keyboard focus and reduced motion",
+      "passed": true
+    },
+    {
+      "name": "Long contact values can wrap",
+      "passed": true
+    },
+    {
+      "name": "Personal email supplied",
+      "passed": true
+    },
+    {
+      "name": "Personal phone supplied",
+      "passed": true
+    },
+    {
+      "name": "Personal social links supplied",
+      "passed": true
+    },
+    {
+      "name": "All local page assets exist",
+      "passed": true
+    },
+    {
+      "name": "Specified normal-text colour pairs meet 4.5:1",
+      "passed": true
+    }
+  ],
+  "missingAssets": [],
+  "contrasts": [
+    {
+      "name": "main text",
+      "text": "#182d45",
+      "background": "#f7f4ee",
+      "ratio": 12.75
+    },
+    {
+      "name": "muted text",
+      "text": "#5e6b78",
+      "background": "#f7f4ee",
+      "ratio": 4.97
+    },
+    {
+      "name": "small kicker",
+      "text": "#795923",
+      "background": "#f7f4ee",
+      "ratio": 5.86
+    },
+    {
+      "name": "button",
+      "text": "#ffffff",
+      "background": "#182d45",
+      "ratio": 14
+    },
+    {
+      "name": "figure caption",
+      "text": "#49586a",
+      "background": "#eee7db",
+      "ratio": 5.92
+    }
+  ],
+  "pageSha256": "faaf89ab0e676a38cb990cc86006b4a3cbd87db9d68a7cbaf2fcb80986d955b0",
+  "scope": "Static source and palette checks only; real browser checks are recorded separately."
+}

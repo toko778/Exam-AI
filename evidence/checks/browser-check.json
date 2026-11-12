@@ -1,0 +1,68 @@
+{
+  "checkedOn": "2026-11-12",
+  "browser": "ChatGPT in-app browser",
+  "url": "http://127.0.0.1:5180/",
+  "layouts": [
+    {
+      "bodyWidth": 1265,
+      "documentWidth": 1265,
+      "height": 720,
+      "imageCount": 6,
+      "imagesLoaded": true,
+      "width": 1280,
+      "label": "desktop"
+    },
+    {
+      "documentWidth": 375,
+      "emailWidth": 263.2875061035156,
+      "height": 844,
+      "imagesLoaded": true,
+      "width": 390,
+      "label": "mobile-390"
+    },
+    {
+      "documentWidth": 305,
+      "height": 800,
+      "imagesLoaded": true,
+      "width": 320,
+      "label": "mobile-320"
+    }
+  ],
+  "screenshots": [
+    "AI2.5-contact-desktop.jpg",
+    "AI2.5-contact-mobile-390.jpg",
+    "AI2.4-copy-feedback.jpg",
+    "AI2.3-codex-draft.jpg",
+    "AI2.3-groq-draft.jpg"
+  ],
+  "copy": {
+    "status": "ელფოსტის მისამართი დაკოპირებულია.",
+    "clipboardMatchesEmail": false,
+    "clipboardReaderReturnedEmpty": true,
+    "note": "The UI reported successful copying, but the browser clipboard reader returned an empty string, so clipboard contents were not independently verified."
+  },
+  "keyboard": {
+    "firstFocusText": "საკონტაქტო ინფორმაციაზე გადასვლა",
+    "focusVisible": true,
+    "outlineWidth": "2.4px",
+    "skipLinkHash": "#contact"
+  },
+  "console": [],
+  "navigation": {
+    "socialHash": "#social",
+    "topHash": "#top"
+  },
+  "allLayoutsFit": true,
+  "consoleScope": "Final contact page only",
+  "screenshotKinds": {
+    "finalPage": [
+      "AI2.5-contact-desktop.jpg",
+      "AI2.5-contact-mobile-390.jpg"
+    ],
+    "copyFeedback": "AI2.4-copy-feedback.jpg",
+    "initialDrafts": [
+      "AI2.3-codex-draft.jpg",
+      "AI2.3-groq-draft.jpg"
+    ]
+  }
+}

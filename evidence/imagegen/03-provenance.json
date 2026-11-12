@@ -1,0 +1,17 @@
+{
+  "generatedOn": "2026-11-11",
+  "tool": "OpenAI ImageGen",
+  "mode": "built-in",
+  "operation": "generate",
+  "asset": "assets/contact-paper.png",
+  "promptFile": "prompts/03-imagegen-brief.txt",
+  "transparentBackground": false,
+  "review": {
+    "envelope": true,
+    "blueNote": true,
+    "ochreConversationRibbon": true,
+    "noPersonalPortrait": true,
+    "noTextOrLogo": true
+  },
+  "note": "The selected generated PNG was copied unchanged into the project. No fabricated browser screenshot is used."
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>საკონტაქტო ბარათი — Codex საწყისი ვარიანტი</title>
+  <style>
+    :root { color-scheme: light; --ink: #182d45; --paper: #f7f4ee; --line: #d8dce2; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.7 system-ui, sans-serif; }
+    main { max-width: 46rem; margin: 8vh auto; padding: 2rem; }
+    article { background: white; border: 1px solid var(--line); border-radius: 1.5rem; padding: clamp(1.25rem, 5vw, 3rem); }
+    h1 { margin: 0 0 1rem; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.3; }
+    dl { display: grid; gap: 1.25rem; }
+    dt { font-weight: 700; } dd { margin: .25rem 0 0; overflow-wrap: anywhere; }
+    a { color: inherit; text-underline-offset: .2em; }
+    a:focus-visible { outline: 3px solid #ad5940; outline-offset: 4px; }
+    @media(max-width: 36rem) { main { margin: 1rem auto; padding: 1rem; } }
+  </style>
+</head>
+<body>
+  <main><article aria-labelledby="contact-title">
+    <p>საკონტაქტო ინფორმაცია</p>
+    <h1 id="contact-title">NAME</h1>
+    <p>მოდი, ვისაუბროთ შენს იდეაზე.</p>
+    <dl><div><dt>ელფოსტა</dt><dd>EMAIL</dd></div><div><dt>ტელეფონი</dt><dd>PHONE</dd></div></dl>
+    <nav aria-label="სოციალური ბმულები"><p>მონაცემები მომხმარებლისგან მოსაწოდებელია.</p></nav>
+  </article></main>
+</body>
+</html>

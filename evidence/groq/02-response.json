@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-11-11T14:24:07.078Z",
+  "tool": "Groq API",
+  "requestedModel": "qwen/qwen3.8-27b",
+  "returnedModel": "qwen/qwen3.8-27b",
+  "requestId": "chatcmpl-8e31838d-c251-4263-9214-fd387a1da21e",
+  "elapsedMs": 6123,
+  "usage": {
+    "queue_time": 0.598606752,
+    "prompt_tokens": 389,
+    "prompt_time": 0.029358466,
+    "completion_tokens": 2249,
+    "completion_time": 4.743224723,
+    "total_tokens": 2638,
+    "total_time": 4.772583189
+  },
+  "proposal": {
+    "css": ":root{--paper:#f7f4ee;--ink:#182d45;--ochre:#c8a567;--card:#fff;--radius:14px;--pad:clamp(20px,4vw,36px);--gap:18px}\n*{box-sizing:border-box}\nbody{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,\"Segoe UI\",Roboto,sans-serif;line-height:1.6;font-size:16px}\n.wrap{max-width:640px;margin:0 auto;padding:var(--pad)}\nheader h1{font-size:clamp(1.6rem,5vw,2.2rem);margin:0 0 .3em;letter-spacing:.2px}\nheader p{margin:0 0 1.4em;max-width:46ch;color:#3a4a5e}\n.card{background:var(--card);border:1px solid #e7e0d2;border-radius:var(--radius);padding:var(--pad);box-shadow:0 10px 30px rgba(24,45,69,.08)}\n.grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap)}\n.item{display:flex;align-items:center;gap:12px;min-height:44px}\n.item svg{flex:0 0 auto}\n.item .txt{display:flex;flex-direction:column;min-width:0}\n.item .lbl{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--ochre);font-weight:600}\n.item a,.item span.val{font-size:1rem;color:var(--ink);text-decoration:none;overflow-wrap:anywhere;min-height:44px;display:inline-flex;align-items:center}\n.item a:hover{color:var(--ochre)}\n.social{grid-column:1/-1;display:flex;align-items:center;gap:12px;min-height:44px}\n.social a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;border:1px solid var(--ochre);border-radius:999px;color:var(--ink);text-decoration:none;font-weight:600}\n.social a:hover{background:var(--ochre);color:#fff}\nfooter{margin-top:1.4em;font-size:.85rem;color:#6b7a8c}\na:focus-visible,button:focus-visible{outline:3px solid var(--ochre);outline-offset:2px;border-radius:6px}\n@media(max-width:700px){.grid{grid-template-columns:1fr}}",
+    "html": "<!doctype html>\n<html lang=\"ka\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>კონტაქტი</title>\n<link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n<div class=\"wrap\">\n<header>\n<h1>დამიკავშირდი</h1>\n<p>მოგესალმები! ქვემოთ მოცემულია ჩემი საკონტაქტო მონაცემები. აირჩიე მოსახერხებელი გზა და დაგვიკავშირდი.</p>\n</header>\n<main>\n<section class=\"card\" aria-label=\"საკონტაქტო ბარათი\">\n<div class=\"grid\">\n<div class=\"item\">\n<svg class=\"icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#182d45\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path d=\"M3 7l9 6 9-6\"/></svg>\n<div class=\"txt\"><span class=\"lbl\">ელფოსტა</span><a href=\"mailto:EMAIL\">EMAIL</a></div>\n</div>\n<div class=\"item\">\n<svg class=\"icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#182d45\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z\"/></svg>\n<div class=\"txt\"><span class=\"lbl\">ტელეფონი</span><a href=\"tel:PHONE\">PHONE</a></div>\n</div>\n<div class=\"social\">\n<svg class=\"icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#182d45\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M13 6l6 6-6 6\"/></svg>\n<div class=\"txt\"><span class=\"lbl\">სოციალური ბმულები</span><a href=\"SOCIAL_URL\" rel=\"noopener\">SOCIAL_URL</a></div>\n</div>\n</div>\n</section>\n</main>\n<footer>© NAME — პირადი საკონტაქტო გვერდი</footer>\n</div>\n</body>\n</html>",
+    "icons": [
+      {
+        "filename": "email.svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#182d45\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\"/><path d=\"M3 7l9 6 9-6\"/></svg>"
+      },
+      {
+        "filename": "phone.svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#182d45\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z\"/></svg>"
+      },
+      {
+        "filename": "arrow.svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#182d45\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14\"/><path d=\"M13 6l6 6-6 6\"/></svg>"
+      }
+    ],
+    "improvements": [
+      "დაამატე CSS custom properties ფერებისთვის, რომ ცვლილება ერთ ადგილას შესრულდეს.",
+      "გამოიყენე clamp() ტექსტის ზომისთვის, რათა მობილურზე კითხვადი იყოს.",
+      "დააყენე overflow-wrap:anywhere ელფოსტის ბმულზე, რომ გრძელი მისამართი არ გაივარდეს.",
+      "გამოიყენე focus-visible outline, რომ კლავიატურით ნავიგაცია ხილული იყოს."
+    ],
+    "labels": [
+      {
+        "key": "heading",
+        "text": "დამიკავშირდი"
+      },
+      {
+        "key": "email",
+        "text": "ელფოსტა"
+      },
+      {
+        "key": "phone",
+        "text": "ტელეფონი"
+      },
+      {
+        "key": "social",
+        "text": "სოციალური ბმულები"
+      },
+      {
+        "key": "copy",
+        "text": "მოგესალმები! ქვემოთ მოცემულია ჩემი საკონტაქტო მონაცემები. აირჩიე მოსახერხებელი გზა და დაგვიკავშირდი."
+      }
+    ],
+    "layoutRecommendation": "სია მარტივია, მაგრამ ვიზუალურად ღარიბი; ცხრილი მონაცემთა შედარებისთვის კარგია, მაგრამ ერთი პირისთვის ზედმეტად ფორმალური; ბარათი კი სემანტიკურად სუფთაა, ჰიერარქიას აჩვენებს და მობილურზე კარგად იკეცება. ამიტომ არჩევანია სემანტიკური კონტაქტ-ბარათი."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "checkedOn": "2026-11-11",
+  "browser": "Google Chrome on Windows",
+  "openedSource": "index.html (file URL)",
+  "observed": {
+    "georgianHeading": true,
+    "providedName": true,
+    "providedEmail": true,
+    "providedPhone": true,
+    "mailtoAndTelLinks": true,
+    "githubLink": true,
+    "generatedIllustration": true,
+    "semanticContactList": true
+  },
+  "desktopCaptureObserved": {
+    "width": 1536,
+    "height": 912,
+    "cssViewportMeasured": false
+  },
+  "screenshotFileSaved": false,
+  "mobileViewportChecked": false,
+  "copyButtonClicked": false,
+  "fullKeyboardFlowChecked": false,
+  "finalNavigationOutcome": "Unknown after browser control stopped",
+  "stopReason": "Computer Use could not determine the current Windows browser URL with enough confidence to enforce policy. No further UI actions were attempted.",
+  "scope": "Initial desktop rendering and accessibility observations only. No fake screenshot, message delivery, or mobile result is claimed."
+}

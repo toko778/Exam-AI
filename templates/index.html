@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{NAME}} — ელფოსტა, ტელეფონი და სოციალური ბმულები ერთ სივრცეში.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f7f4ee">
+  <title>{{NAME}} — დამიკავშირდი</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="contact.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contact">საკონტაქტო ინფორმაციაზე გადასვლა</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="identity" href="#top" aria-label="{{NAME}} — გვერდის დასაწყისი">
+        <span class="monogram" aria-hidden="true">{{INITIALS}}</span>
+        <span class="identity-name">{{NAME}}</span>
+      </a>
+      <nav class="header-nav" aria-label="მთავარი ნავიგაცია">
+        <a href="#contact">კონტაქტი</a>
+        <a href="#social">სოციალური ბმულები</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow"><span aria-hidden="true"></span>საუბარი აქ იწყება</p>
+          <h1 id="page-title">დამიკავშირდი<span class="title-dot">.</span></h1>
+          <p class="intro-copy">მოგესალმები, მე ვარ <strong>{{NAME}}</strong>.<br>აირჩიე შენთვის მოსახერხებელი საკონტაქტო გზა.</p>
+        </div>
+        <a class="intro-jump" href="#contact" aria-label="საკონტაქტო ინფორმაციის ნახვა">
+          <img src="assets/icons/arrow.svg" alt="" width="24" height="24">
+        </a>
+      </section>
+
+      <section class="contact-card" id="contact" aria-labelledby="contact-title">
+        <div class="contact-details">
+          <p class="section-kicker">პირდაპირი კავშირი</p>
+          <h2 id="contact-title">მომწერე ან დამირეკე</h2>
+          <dl class="contact-list">
+            <div class="contact-row">
+              <dt><span class="icon-wrap"><img src="assets/icons/email.svg" alt="" width="25" height="25"></span><span>ელფოსტა</span></dt>
+              <dd>{{EMAIL_VALUE}}</dd>
+            </div>
+            <div class="contact-row">
+              <dt><span class="icon-wrap"><img src="assets/icons/phone.svg" alt="" width="25" height="25"></span><span>ტელეფონი</span></dt>
+              <dd>{{PHONE_VALUE}}</dd>
+            </div>
+          </dl>
+          <div class="contact-actions">{{EMAIL_ACTION}}{{COPY_BUTTON}}</div>
+          <p class="contact-hint">ბმულები გახსნის შენს ელფოსტის ან ზარის აპს.</p>
+        </div>
+        <figure class="contact-art">
+          <img src="assets/contact-paper.png" width="1448" height="1086" alt="ქაღალდის კონვერტი და ლურჯი წერილი, რომელსაც ოქროსფერი საუბრის ლენტი აერთიანებს.">
+          <figcaption>ერთი შეტყობინება კარგი დასაწყისია.</figcaption>
+        </figure>
+      </section>
+
+      <section class="social-section" id="social" aria-labelledby="social-title">
+        <div><p class="section-kicker">სხვა სივრცეებიც</p><h2 id="social-title">მომძებნე აქაც</h2></div>
+        {{SOCIAL_LINKS}}
+      </section>
+    </main>
+
+    <footer class="site-footer"><p>© 2026 {{NAME}}</p><a href="#top">ზემოთ დაბრუნება <span aria-hidden="true">↑</span></a></footer>
+  </div>
+  <p class="copy-status" id="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+</body>
+</html>

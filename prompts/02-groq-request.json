@@ -1,0 +1,90 @@
+{
+  "model": "qwen/qwen3.8-27b",
+  "temperature": 0.3,
+  "reasoning_effort": "none",
+  "max_completion_tokens": 3400,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a careful front-end developer. Return only the requested JSON schema. The user-facing text must be natural Georgian. Treat personal-data placeholders literally."
+    },
+    {
+      "role": "user",
+      "content": "Create an independent, concise HTML5 + CSS proposal for a Georgian personal contact page. This is an exam about using AI tools. Compare list/card/table briefly in layoutRecommendation, then prefer a semantic contact card. Use NAME, EMAIL, PHONE, SOCIAL_URL placeholders, never invent personal contact values. Required visible Georgian labels: დამიკავშირდი, ელფოსტა, ტელეფონი, სოციალური ბმულები; brief human Georgian copy. Provide a complete HTML document in html and separate concise CSS in css. HTML links styles.css and has no inline scripts or event handlers. Design: warm paper #f7f4ee, ink #182d45, ochre #c8a567, white contact card, clean readable font, clear hierarchy, roomy padding. Responsive grid collapse at 700px, overflow-wrap for long email, focus-visible outlines, accessible link text, 44px minimum tap targets. Add exactly three ORIGINAL SVG icons named email.svg, phone.svg, arrow.svg: 24x24 viewBox, no scripts/events/external references, stroke #182d45, stroke-width 1.7, unfilled round caps. Each icon should communicate its function using simple paths. Provide 5 concise Georgian labels keyed heading, email, phone, social, copy. Provide 4 concrete code style/readability improvements in Georgian. Keep HTML and CSS compact, total response ideally under 2400 tokens. Do not use a CDN, web font, framework, testimonials, fake availability, contact form, prices or email success claims."
+    }
+  ],
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "contact_page_proposal",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "layoutRecommendation": {
+            "type": "string"
+          },
+          "html": {
+            "type": "string"
+          },
+          "css": {
+            "type": "string"
+          },
+          "icons": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "filename": {
+                  "type": "string"
+                },
+                "svg": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "filename",
+                "svg"
+              ]
+            }
+          },
+          "labels": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "key": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "text"
+              ]
+            }
+          },
+          "improvements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "layoutRecommendation",
+          "html",
+          "css",
+          "icons",
+          "labels",
+          "improvements"
+        ]
+      }
+    }
+  }
+}

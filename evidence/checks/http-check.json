@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-11-12T08:28:30.642Z",
+  "scope": "Local HTTP delivery",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/styles.css",
+      "status": 200
+    },
+    {
+      "path": "/contact.js",
+      "status": 200
+    },
+    {
+      "path": "/assets/icons/arrow.svg",
+      "status": 200
+    },
+    {
+      "path": "/assets/icons/email.svg",
+      "status": 200
+    },
+    {
+      "path": "/assets/icons/phone.svg",
+      "status": 200
+    },
+    {
+      "path": "/assets/contact-paper.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/fonts/noto-georgian.woff2",
+      "status": 200
+    },
+    {
+      "path": "/assets/fonts/noto-latin.woff2",
+      "status": 200
+    }
+  ]
+}
